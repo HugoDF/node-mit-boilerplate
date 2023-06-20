@@ -1,16 +1,10 @@
 {
   "private": true,
   "scripts": {
-    "lint": "xo .",
-    "format": "xo . --fix"
+    "format": "prettier --write './**/*.{js,json,yml,md}'"
   },
+  "license": "MIT",
   "devDependencies": {
-    "xo": "latest"
-  },
-  "xo": {
-    "prettier": true,
-    "space": true,
-    "globals": []
-  },
-  "license": "MIT"
+    "prettier": "2.8.8"
+  }
 }
