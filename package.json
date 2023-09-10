@@ -3,6 +3,7 @@
   "type": "module",
   "scripts": {
     "test": "node --test",
+    "lint": "npm run format -- -c",
     "format": "prettier --write './**/*.{js,json,yml,md}'"
   },
   "license": "MIT",
