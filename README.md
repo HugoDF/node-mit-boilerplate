@@ -1,7 +1,17 @@
+# [Project Name]
+
+Boilerplate repo with:
+
+- MIT License
+- Node, npm
+- tests with the `node:test` built-in
+- formatting with prettier
+- GitHub Actions
+
 ## Requirements
 
-- Node 10
-- Yarn 1.x or npm
+- Node 20
+- npm v8+
 
 ## Setup
 
@@ -10,9 +20,7 @@
 
 ## npm scripts
 
-> Equivalent `npm run <script>` should also work
-
-- `yarn lint` will lint all of the files with [xo](https://github.com/xojs/xo)
+- `npm test` will run tests using the [Node.js test runner](https://nodejs.org/api/test.html#running-tests-from-the-command-line) and the `node:test` module.
 - `npm run format` will run prettier on all the examples files (and tests).
 
 ## LICENSE

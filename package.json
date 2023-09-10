@@ -1,6 +1,8 @@
 {
   "private": true,
+  "type": "module",
   "scripts": {
+    "test": "node --test",
     "format": "prettier --write './**/*.{js,json,yml,md}'"
   },
   "license": "MIT",
