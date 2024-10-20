@@ -6,7 +6,8 @@ Boilerplate repo with:
 - Node, npm
 - tests with the `node:test` built-in
 - formatting with prettier
-- GitHub Actions
+- GitHub Actions on commit and to auto-publish on GH release
+  - **note**: for publish to work, `NPM_TOKEN` has to be set in the repository GH Actions secrets
 
 ## Requirements
 
